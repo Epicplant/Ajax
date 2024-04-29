@@ -1,0 +1,70 @@
+/*
+  Christopher Roy
+  05/06/2020
+  Section AK: Austin Jenchi
+
+  A CSS file for the file index.html. This file essentially deals with index.html's
+  style and changes the background of the page to black along with many other stylistic
+  changes
+*/
+body {
+  background-color: black;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+#text-menu {
+  height: 500px;
+  width: 92%;
+  font-size: 50px;
+  background-color: purple;
+  border: 25px solid teal;
+  margin: 25px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#song-menu {
+  background-color: brown;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hidden {
+  display: none;
+}
+
+.songCard {
+  width: 200px;
+  height: 100%;
+  word-wrap: break-word;
+  border-right: 5px solid navy;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 550px;
+  height: 200px;
+  border: 0.35em solid purple;
+  border-radius: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: orange;
+  padding: 5px;
+}
+
+#reset-btn {
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+}

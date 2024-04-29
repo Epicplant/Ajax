@@ -1,0 +1,36 @@
+<!--
+Christopher Roy
+05/06/2020
+Section AK: Austin Jenchi
+
+The contents of the webpage index.html. This file contains a welcome page that prompts
+for a song to be inputted, a selection of a number of songs, and a button to actually
+search for a song. There is also a hidden menu that will contain searched songs after
+songs are searched for.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SONGS!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="song-menu" class="hidden"></section>
+      <section id="text-menu">
+        <h1>Christopher's Music Box</h1>
+        <input id="song-name" type="text" value="Enter Song Name Here">
+        <select>
+          <option value="4">4 Songs</option>
+          <option value="8">8 Songs</option>
+          <option value="12">12 Songs</option>
+          <option value="24">25 Songs</option>
+        </select>
+        <button id="fetcher">Find Songs</button>
+      </section>
+    </main>
+    <footer> API used: [Last.fm API](https://www.last.fm/api/)</footer>
+  </body>
+</html>
